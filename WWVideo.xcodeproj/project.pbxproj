@@ -22,6 +22,17 @@
 		866FCE7C18CA1757009874B6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 866FCE6018CA1757009874B6 /* CoreData.framework */; };
 		866FCE8418CA1757009874B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 866FCE8218CA1757009874B6 /* InfoPlist.strings */; };
 		866FCE8618CA1757009874B6 /* WWVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 866FCE8518CA1757009874B6 /* WWVideoTests.m */; };
+		866FCE9018CA1795009874B6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866FCE8F18CA1795009874B6 /* Storyboard.storyboard */; };
+		866FCE9A18CA1828009874B6 /* CameraEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 866FCE9318CA1828009874B6 /* CameraEngine.m */; };
+		866FCE9B18CA1828009874B6 /* VideoEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 866FCE9518CA1828009874B6 /* VideoEncoder.m */; };
+		866FCE9D18CA1828009874B6 /* ACMovieMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 866FCE9918CA1828009874B6 /* ACMovieMaker.m */; };
+		866FCEA318CA1A5B009874B6 /* ACVideoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866FCEA218CA1A5B009874B6 /* ACVideoCollectionViewController.m */; };
+		866FCEA718CA1AA1009874B6 /* ACCDMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 866FCEA618CA1AA1009874B6 /* ACCDMgr.m */; };
+		866FCEAD18CA1F3B009874B6 /* UICollectionView+NSFetchedResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866FCEAC18CA1F3B009874B6 /* UICollectionView+NSFetchedResultsController.m */; };
+		866FCEB518CA27E6009874B6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 866FCEB218CA27E6009874B6 /* MBProgressHUD.m */; };
+		866FCEB618CA27E6009874B6 /* ACTapSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 866FCEB418CA27E6009874B6 /* ACTapSensor.m */; };
+		866FCEB918CA2FD9009874B6 /* WWVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 866FCEB818CA2FD9009874B6 /* WWVideoCell.m */; };
+		866FCEBC18CA51CC009874B6 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 866FCEBB18CA51CC009874B6 /* Video.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,27 @@
 		866FCE8118CA1757009874B6 /* WWVideoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WWVideoTests-Info.plist"; sourceTree = "<group>"; };
 		866FCE8318CA1757009874B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		866FCE8518CA1757009874B6 /* WWVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWVideoTests.m; sourceTree = "<group>"; };
+		866FCE8F18CA1795009874B6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		866FCE9218CA1828009874B6 /* CameraEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraEngine.h; sourceTree = "<group>"; };
+		866FCE9318CA1828009874B6 /* CameraEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraEngine.m; sourceTree = "<group>"; };
+		866FCE9418CA1828009874B6 /* VideoEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoEncoder.h; sourceTree = "<group>"; };
+		866FCE9518CA1828009874B6 /* VideoEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoEncoder.m; sourceTree = "<group>"; };
+		866FCE9818CA1828009874B6 /* ACMovieMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMovieMaker.h; sourceTree = "<group>"; };
+		866FCE9918CA1828009874B6 /* ACMovieMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACMovieMaker.m; sourceTree = "<group>"; };
+		866FCEA118CA1A5B009874B6 /* ACVideoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVideoCollectionViewController.h; sourceTree = "<group>"; };
+		866FCEA218CA1A5B009874B6 /* ACVideoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVideoCollectionViewController.m; sourceTree = "<group>"; };
+		866FCEA518CA1AA1009874B6 /* ACCDMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACCDMgr.h; sourceTree = "<group>"; };
+		866FCEA618CA1AA1009874B6 /* ACCDMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACCDMgr.m; sourceTree = "<group>"; };
+		866FCEAB18CA1F3B009874B6 /* UICollectionView+NSFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+NSFetchedResultsController.h"; sourceTree = "<group>"; };
+		866FCEAC18CA1F3B009874B6 /* UICollectionView+NSFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+NSFetchedResultsController.m"; sourceTree = "<group>"; };
+		866FCEB118CA27E6009874B6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		866FCEB218CA27E6009874B6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		866FCEB318CA27E6009874B6 /* ACTapSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACTapSensor.h; sourceTree = "<group>"; };
+		866FCEB418CA27E6009874B6 /* ACTapSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACTapSensor.m; sourceTree = "<group>"; };
+		866FCEB718CA2FD9009874B6 /* WWVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWVideoCell.h; sourceTree = "<group>"; };
+		866FCEB818CA2FD9009874B6 /* WWVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWVideoCell.m; sourceTree = "<group>"; };
+		866FCEBA18CA51CC009874B6 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		866FCEBB18CA51CC009874B6 /* Video.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +147,13 @@
 		866FCE6218CA1757009874B6 /* WWVideo */ = {
 			isa = PBXGroup;
 			children = (
+				866FCEA418CA1A80009874B6 /* CoreData */,
+				866FCEA018CA1A1A009874B6 /* Playing */,
+				866FCE9118CA1811009874B6 /* Recording */,
 				866FCE6B18CA1757009874B6 /* WWAppDelegate.h */,
 				866FCE6C18CA1757009874B6 /* WWAppDelegate.m */,
+				866FCE8F18CA1795009874B6 /* Storyboard.storyboard */,
 				866FCE7118CA1757009874B6 /* Images.xcassets */,
-				866FCE6E18CA1757009874B6 /* WWVideo.xcdatamodeld */,
 				866FCE6318CA1757009874B6 /* Supporting Files */,
 			);
 			path = WWVideo;
@@ -127,6 +162,12 @@
 		866FCE6318CA1757009874B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				866FCEB118CA27E6009874B6 /* MBProgressHUD.h */,
+				866FCEB218CA27E6009874B6 /* MBProgressHUD.m */,
+				866FCEB318CA27E6009874B6 /* ACTapSensor.h */,
+				866FCEB418CA27E6009874B6 /* ACTapSensor.m */,
+				866FCEAB18CA1F3B009874B6 /* UICollectionView+NSFetchedResultsController.h */,
+				866FCEAC18CA1F3B009874B6 /* UICollectionView+NSFetchedResultsController.m */,
 				866FCE6418CA1757009874B6 /* WWVideo-Info.plist */,
 				866FCE6518CA1757009874B6 /* InfoPlist.strings */,
 				866FCE6818CA1757009874B6 /* main.m */,
@@ -151,6 +192,58 @@
 				866FCE8218CA1757009874B6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		866FCE9118CA1811009874B6 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				866FCE9F18CA1974009874B6 /* Controller */,
+				866FCE9E18CA196A009874B6 /* Engine */,
+			);
+			name = Recording;
+			sourceTree = "<group>";
+		};
+		866FCE9E18CA196A009874B6 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				866FCE9218CA1828009874B6 /* CameraEngine.h */,
+				866FCE9318CA1828009874B6 /* CameraEngine.m */,
+				866FCE9418CA1828009874B6 /* VideoEncoder.h */,
+				866FCE9518CA1828009874B6 /* VideoEncoder.m */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		866FCE9F18CA1974009874B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				866FCE9818CA1828009874B6 /* ACMovieMaker.h */,
+				866FCE9918CA1828009874B6 /* ACMovieMaker.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		866FCEA018CA1A1A009874B6 /* Playing */ = {
+			isa = PBXGroup;
+			children = (
+				866FCEA118CA1A5B009874B6 /* ACVideoCollectionViewController.h */,
+				866FCEA218CA1A5B009874B6 /* ACVideoCollectionViewController.m */,
+				866FCEB718CA2FD9009874B6 /* WWVideoCell.h */,
+				866FCEB818CA2FD9009874B6 /* WWVideoCell.m */,
+			);
+			name = Playing;
+			sourceTree = "<group>";
+		};
+		866FCEA418CA1A80009874B6 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				866FCE6E18CA1757009874B6 /* WWVideo.xcdatamodeld */,
+				866FCEBA18CA51CC009874B6 /* Video.h */,
+				866FCEBB18CA51CC009874B6 /* Video.m */,
+				866FCEA518CA1AA1009874B6 /* ACCDMgr.h */,
+				866FCEA618CA1AA1009874B6 /* ACCDMgr.m */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +294,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = WeddingWire;
 				TargetAttributes = {
+					866FCE5618CA1757009874B6 = {
+						DevelopmentTeam = 763L973CBP;
+					};
 					866FCE7618CA1757009874B6 = {
 						TestTargetID = 866FCE5618CA1757009874B6;
 					};
@@ -231,6 +327,7 @@
 			files = (
 				866FCE6718CA1757009874B6 /* InfoPlist.strings in Resources */,
 				866FCE7218CA1757009874B6 /* Images.xcassets in Resources */,
+				866FCE9018CA1795009874B6 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +346,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866FCE9A18CA1828009874B6 /* CameraEngine.m in Sources */,
 				866FCE7018CA1757009874B6 /* WWVideo.xcdatamodeld in Sources */,
+				866FCE9D18CA1828009874B6 /* ACMovieMaker.m in Sources */,
+				866FCEB618CA27E6009874B6 /* ACTapSensor.m in Sources */,
+				866FCEB918CA2FD9009874B6 /* WWVideoCell.m in Sources */,
+				866FCEB518CA27E6009874B6 /* MBProgressHUD.m in Sources */,
 				866FCE6D18CA1757009874B6 /* WWAppDelegate.m in Sources */,
+				866FCE9B18CA1828009874B6 /* VideoEncoder.m in Sources */,
+				866FCEAD18CA1F3B009874B6 /* UICollectionView+NSFetchedResultsController.m in Sources */,
+				866FCEA718CA1AA1009874B6 /* ACCDMgr.m in Sources */,
+				866FCEA318CA1A5B009874B6 /* ACVideoCollectionViewController.m in Sources */,
 				866FCE6918CA1757009874B6 /* main.m in Sources */,
+				866FCEBC18CA51CC009874B6 /* Video.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,10 +477,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WWVideo/WWVideo-Prefix.pch";
 				INFOPLIST_FILE = "WWVideo/WWVideo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -383,10 +493,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WWVideo/WWVideo-Prefix.pch";
 				INFOPLIST_FILE = "WWVideo/WWVideo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
