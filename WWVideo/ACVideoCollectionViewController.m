@@ -94,6 +94,8 @@
     return cell;
 }
 
+#pragma mark - CollectionView Delegate
+
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     Video *video = [self.fetchedResultsController objectAtIndexPath:indexPath];
